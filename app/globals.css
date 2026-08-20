@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  /* This creates our custom brand colors based on the Pakistani flag */
+  --color-brand: #118C4F;
+  --color-brand-dark: #0A5C32;
+  --color-brand-light: #EAF5F0;
+}
+
+/* This sets a clean, professional off-white background for the whole store */
+@layer base {
+  body {
+    background-color: #f9fafb;
+    color: #111827;
+    font-family: system-ui, sans-serif;
+  }
+}

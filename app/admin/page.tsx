@@ -8,6 +8,7 @@ type Order = {
   id: string;
   full_name: string;
   phone: string;
+  email: string; // <-- Added this missing property
   address: string;
   city: string;
   total_amount: number;
